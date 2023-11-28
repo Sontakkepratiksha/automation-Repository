@@ -15,11 +15,10 @@ public class DeselectMethod {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	driver.get("");
 	
-	WebDriver dropDown1=
-			sel.SelectByIndex(2);
+	WebDriver dropDown1=sel.SelectByIndex(2);
 	//deselect the option from single select dropDown
 	Thread.sleep(2000);
-	sel.deselectByIndex(2);
+	//sel.deselectByIndex(2);
 	//perform deselection on multiselect dropdown
 	driver.findElement(By.partialLinkText("multiselect")).click();
 	//identify dropdown that is multiselect
@@ -29,8 +28,7 @@ public class DeselectMethod {
 	//select and deselect option by using index 
 	
 	Thread.sleep(2000);
-	sel2.selectByIndex(i);
-	}
+	
 	 for(int i=0; i<=4; i++)
 	 {
 		 Thread.sleep(2000);

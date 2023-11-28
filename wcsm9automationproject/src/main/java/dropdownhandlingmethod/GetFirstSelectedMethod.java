@@ -28,7 +28,7 @@ public class GetFirstSelectedMethod {
     System.out.println(firstopt.getText());
     
     // multiselect
-    driver.navigate();to
+    driver.navigate();
   
  //multiselect identify dropdown
     WebElement dropDown2 = driver.findElement(By.id(""));

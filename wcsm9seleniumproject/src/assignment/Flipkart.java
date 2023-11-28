@@ -20,7 +20,7 @@ public class Flipkart {
 	driver.findElement(By.xpath("q")).sendKeys("mobail");
 	//identify
 	driver.findElement(By.xpath("//button[contains(@aria-label,'Brands and More')]")).click();
-	 String price = driver.findElement(By.xpath(""))
+	 String price = driver.findElement(By.xpath("//div[text()='₹56,999']")).click();
 	
 	driver.quit();
 		
